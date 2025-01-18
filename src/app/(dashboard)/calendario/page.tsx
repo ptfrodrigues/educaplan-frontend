@@ -1,9 +1,9 @@
-export default function PainelPrincipal() {
+export default function Calendario() {
     return (
       <div className="p-6">
         <div>
           <div className="flex justify-between">
-<h1>Painel principal</h1>
+<h1>Calendario</h1>
           </div>
 
           <div className="flex justify-between">
@@ -14,4 +14,5 @@ export default function PainelPrincipal() {
       </div>
     );
   }
+
   

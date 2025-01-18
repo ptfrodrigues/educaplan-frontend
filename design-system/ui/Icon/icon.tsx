@@ -2,6 +2,8 @@ import React from 'react'
 import { IconProps } from '@/types/icon'
 import { iconPaths } from './icon-paths'
 
+
+
 export function Icon({ name, size = 24, className = '' }: IconProps) {
   const path = iconPaths[name] || ''
 

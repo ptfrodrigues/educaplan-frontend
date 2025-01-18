@@ -11,9 +11,9 @@ const data: ItemProps[] = [
 
 export default function aula() {
     return (
-      <div className="p-6">
-        <div>
-          <div className="flex justify-between">
+      <div className="p-6 ">
+        <div className="space-y-4">
+          <div className="flex justify-between space-x-4">
             <ContentCard title="Summary" data={data} />
             <ContentCard title="Summary" data={data} />
           </div>

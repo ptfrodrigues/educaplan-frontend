@@ -13,17 +13,17 @@ type NavItem = {
 }
 
 const mainNavItems: NavItem[] = [
-  { name: 'Dashboard', icon: 'dashboard', href: '/' },
-  { name: 'Gestão Curricular', icon: 'curriculum', href: '/curriculum' },
-  { name: 'Calendário', icon: 'calendar', href: '/calendar' },
-  { name: 'Cursos', icon: 'courses', href: '/courses' },
-  { name: 'Módulos', icon: 'modules', href: '/modules' },
+  { name: 'Painel Principal', icon: 'dashboard', href: '/' },
+  { name: 'Gestão Curricular', icon: 'curriculum', href: '/gestao-curricular' },
+  { name: 'Calendário', icon: 'calendar', href: '/calendario' },
+  { name: 'Cursos', icon: 'courses', href: '/cursos' },
+  { name: 'Módulos', icon: 'modules', href: '/modulos' },
   { name: 'Aula', icon: 'class', href: '/aula' },
 ]
 
 const utilityNavItems: NavItem[] = [
-  { name: 'Área Financeira', icon: 'financial', href: '/financial' },
-  { name: 'Relatórios', icon: 'reports', href: '/reports' },
+  { name: 'Área Financeira', icon: 'financial', href: '/financeiro' },
+  { name: 'Relatórios', icon: 'reports', href: '/relatorios' },
 ]
 
 export default function Sidebar() {

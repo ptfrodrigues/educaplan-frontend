@@ -26,7 +26,7 @@ export const SidebarItem = React.memo(function SidebarNavItem({
             <span className="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full" aria-hidden="true" />
           )}
       </div>
-      <span className={`mt-[${spacing[2]}] text-xs font-medium px-[${spacing[2]}] text-center line-clamp-2`}>{name}</span>
+      <p className={`mt-[${spacing[2]}] text-xs w-16 font-medium px-[${spacing[2]}] text-center line-clamp-2`}>{name}</p>
     </NavLink>
   )
 })
